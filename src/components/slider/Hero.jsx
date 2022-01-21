@@ -4,9 +4,8 @@ import Social from "../Social";
 const heroContent = {
   shapeImage: "hero-shape",
   heroImage: "2",
-  name: "Rokers Nelson",
-  description: `I'm a Freelancer Front-end React Developer with over 6 years of
-  professional experience in this field.`,
+  name: "Naim Siddiquee Sagor",
+  description: `Chairman and Founder of Sohosro and Sister Concerns, a leading online platform for the E-commerce industry.`,
 };
 
 const Hero = () => {
@@ -53,9 +52,9 @@ const Hero = () => {
             data-aos-duration="1200"
             data-aos-delay="400"
           >
-            <a href="img/cv.png" download className="color">
+            {/* <a href="img/cv.png" download className="color">
               Download CV
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
