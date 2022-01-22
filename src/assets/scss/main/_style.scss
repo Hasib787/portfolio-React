@@ -810,17 +810,6 @@ body.dark .loader_line:after {
   font-weight: 600;
   margin-bottom: 15px;
 }
-.edina_tm_about .dodo_progress {
-  width: 100%;
-  display: flex;
-  padding-top: 40px;
-  flex-wrap: wrap;
-  margin: 0 -20px 10px;
-
-  @media screen and (max-width: 575px) {
-    margin: 0;
-  }
-}
 .edina_tm_about .desc {
   max-width: 90%;
 }
@@ -924,35 +913,6 @@ body.dark .loader_line:after {
   background-position: center;
   background-size: cover;
   border-radius: 10px;
-}
-.edina_tm_about .experience {
-  position: absolute;
-  bottom: -50px;
-  left: -50px;
-  z-index: 1;
-  width: 291px;
-  height: 291px;
-  border-radius: 100%;
-  background-color: #34495e;
-}
-.edina_tm_about .experience .info {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  text-align: center;
-  width: 100%;
-  transform: translate(-50%, -50%);
-  padding: 10px;
-}
-.edina_tm_about .experience .info h3 {
-  font-size: 45px;
-  font-weight: 700;
-  color: #fff;
-}
-.edina_tm_about .experience .info span {
-  font-size: 22px;
-  font-weight: 500;
-  color: #fff;
 }
 // about popup
 .custom-modal.about-popup-wrapper {
@@ -2465,21 +2425,9 @@ a {
     width: 250px;
     height: 250px;
   }
-
   .edina_tm_about .rightpart {
     padding-left: 120px;
   }
-  .edina_tm_about .experience {
-    width: 250px;
-    height: 250px;
-  }
-  .edina_tm_about .experience .info h3 {
-    font-size: 35px;
-  }
-  .edina_tm_about .experience .info span {
-    font-size: 19px;
-  }
-
   .edina_tm_services ul li .list_inner {
     padding-right: 40px;
   }
@@ -2547,9 +2495,6 @@ a {
     width: 100%;
     padding-left: 0px;
   }
-  .edina_tm_about .experience {
-    left: 50px;
-  }
   .edina_tm_services ul li {
     width: 50%;
   }
@@ -2601,10 +2546,6 @@ a {
   }
 }
 @media (max-width: 768px) {
-  .edina_tm_about .wrapper {
-    flex-direction: column;
-    align-items: baseline;
-  }
   .edina_tm_contact .extra_info .wrapper {
     margin: 0px;
   }
@@ -2617,20 +2558,6 @@ a {
   .edina_tm_about .wrapper .right {
     width: 100%;
     padding: 0px;
-  }
-  .edina_tm_about .experience {
-    width: 150px;
-    height: 150px;
-    left: 15px;
-  }
-  .edina_tm_about .experience .info {
-    line-height: 1.2;
-    h3 {
-      font-size: 22px;
-    }
-  }
-  .edina_tm_about .experience .info span {
-    font-size: 13px;
   }
   .edina_tm_hero .name {
     font-size: 36px;
