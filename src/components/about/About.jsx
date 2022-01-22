@@ -27,7 +27,7 @@ const About = () => {
           >
             <div className="info">
               <h3>
-                Hi, I'm <span>Rokers Nelson</span>
+                Hi, I'm <span>Naim Siddiquee Sagor</span>
               </h3>
               <p>
                 I'm a Freelancer Front-end Developer with over 6 years of
@@ -42,11 +42,11 @@ const About = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
                 ipsum sit nibh amet egestas tellus.
               </p>
-              <div className="wrapper">
+              {/* <div className="wrapper">
                 <div className="dodo_progress">
                   <Skills />
                 </div>
-              </div>
+              </div> */}
               <div className="edina_tm_button">
                 <button
                   type="submit"
