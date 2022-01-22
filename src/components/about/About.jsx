@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Skills from "../skills/Skills";
 import Modal from "react-modal";
 import ModalContent from "./modal/ModalContent";
 
