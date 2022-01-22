@@ -42,11 +42,6 @@ const About = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
                 ipsum sit nibh amet egestas tellus.
               </p>
-              {/* <div className="wrapper">
-                <div className="dodo_progress">
-                  <Skills />
-                </div>
-              </div> */}
               <div className="edina_tm_button">
                 <button
                   type="submit"
@@ -58,7 +53,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          {/* End leftpart */}
+          {/* End leftPart */}
 
           <div className="rightpart">
             <div className="image">
@@ -68,28 +63,16 @@ const About = () => {
                 className="main"
                 style={{
                   backgroundImage: `url(${
-                    process.env.PUBLIC_URL + "img/about/2.jpg"
+                    process.env.PUBLIC_URL + "img/about/sagor_main.png"
                   })`,
                 }}
                 data-aos="fade-left"
                 data-aos-duration="1200"
                 data-aos-delay="200"
               ></div>
-
-              <div
-                className="experience"
-                data-aos="fade-up"
-                data-aos-duration="1200"
-                data-aos-delay="300"
-              >
-                <div className="info">
-                  <h3>6+ Years</h3>
-                  <span>Of Experiance</span>
-                </div>
-              </div>
             </div>
           </div>
-          {/* End righttpart */}
+          {/* End rightPart */}
         </div>
       </div>
 

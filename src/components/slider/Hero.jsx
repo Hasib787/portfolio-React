@@ -3,7 +3,7 @@ import Social from "../Social";
 
 const heroContent = {
   shapeImage: "hero-shape",
-  heroImage: "2",
+  heroImage: "sagor_logo",
   name: "Naim Siddiquee Sagor",
   description: `Chairman and Founder of Sohosro and Sister Concerns, a leading online platform for the E-commerce industry.`,
 };
@@ -16,7 +16,7 @@ const Hero = () => {
         <div className="img-shape" data-aos="fade-up" data-aos-duration="1200">
           <img
             src={`img/hero/${heroContent.shapeImage}`}
-            srcSet={`img/hero/${heroContent.heroImage}.jpg`}
+            srcSet={`img/hero/${heroContent.heroImage}.png`}
             alt="hero image"
           />
         </div>
