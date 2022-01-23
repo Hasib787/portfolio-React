@@ -39,9 +39,9 @@ const sidebarContent = [
 // sidebar footer bottom content
 const sidebarFooterContent = {
   avatar: "img/about/avatar.jpg",
-  name: "Nelson",
-  email: "support@gmail.com",
-  emailRef: "mailto:ib-themes21@gmail.com",
+  name: "Sagor",
+  email: "naimsiddiquee@sohosro.com",
+  emailRef: "naimsiddiquee@sohosro.com",
 };
 
 const Sidebar = () => {
