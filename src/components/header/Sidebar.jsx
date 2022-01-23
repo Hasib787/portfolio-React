@@ -3,8 +3,7 @@ import { Link } from "react-router-dom";
 import ScrollspyNav from "react-scrollspy-nav";
 
 // logo name
-const logo = "dark";
-const logo2 = "light";
+const logo2 = "naim_logo";
 
 // sidebar content
 const sidebarContent = [
@@ -66,11 +65,6 @@ const Sidebar = () => {
         <div className="sidebar_inner">
           <div className="logo">
             <Link to="/">
-              <img
-                className="logo_dark"
-                src={`img/logo/${logo}.png`}
-                alt="brand"
-              />
               <img
                 className="logo_light"
                 src={`img/logo/${logo2}.png`}
