@@ -9,7 +9,7 @@ const SocialShare = [
   },
   {
     iconName: <FaWhatsapp />,
-    link: "https://www.linkedin.com/in/naim-siddiquee-sagor-814602130/",
+    link: "https://i.ibb.co/G9PnRZS/271820515-654165939257037-2295671272468446317-n.jpg",
   },
   { iconName: <FiDribbble />, link: "https://www.sohosro.com/" },
   {
