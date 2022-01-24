@@ -1,17 +1,32 @@
 import React from "react";
 
+//make a function to count age from date of birth
+const getAge = (dateString) => {
+  let today = new Date();
+  let birthDate = new Date(dateString);
+  let age = today.getFullYear() - birthDate.getFullYear();
+  let m = today.getMonth() - birthDate.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+      age--;
+  }
+  return age;
+}
+
 const personalInfoContent = [
-  { meta: "first name", metaInfo: "Rokers " },
-  { meta: "last name", metaInfo: "Nelson" },
-  { meta: "Age", metaInfo: "25 Years" },
-  { meta: "Nationality", metaInfo: "USA" },
-  { meta: "Freelance", metaInfo: "Available" },
-  { meta: "Address", metaInfo: "New York" },
-  { meta: "phone", metaInfo: "+3456374647" },
-  { meta: "Email", metaInfo: "you@mail.com" },
+  { meta: "first name", metaInfo: "Naim " },
+  { meta: "Middle name", metaInfo: "Siddiquee" },
+  { meta: "last name", metaInfo: "Sagor" },
+  { meta: "Age", metaInfo: getAge("1995/10") },
+  { meta: "Nationality", metaInfo: "Bangladeshi" },
+  { meta: "Address", metaInfo: "Banaripara, Barishal" },
+  { meta: "phone", metaInfo: " +8801929273397" },
+  { meta: "Email", metaInfo: "naimsiddiquee@sohosro.com" },
   { meta: "Skype", metaInfo: " rokers.nelson" },
-  { meta: "langages", metaInfo: "French, English" },
+  { meta: "langages", metaInfo: "Bangla, English" },
 ];
+
+
+
 
 const PersonalInfo = () => {
   return (
