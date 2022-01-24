@@ -1,26 +1,20 @@
 import React from "react";
-import {
-  FiFacebook,
-  FiTwitter,
-  FiInstagram,
-  FiDribbble,
-  FiLinkedin,
-} from "react-icons/fi";
+import { FiFacebook, FiDribbble, FiLinkedin } from "react-icons/fi";
+import { FaWhatsapp } from "react-icons/fa";
 
 const SocialShare = [
   {
     iconName: <FiFacebook />,
-    link: "https://www.facebook.com/",
+    link: "https://www.facebook.com/naimsiddiqueesagor",
   },
-  { iconName: <FiTwitter />, link: "https://twitter.com/" },
   {
-    iconName: <FiInstagram />,
-    link: "https://www.instagram.com/",
+    iconName: <FaWhatsapp />,
+    link: "https://www.linkedin.com/in/naim-siddiquee-sagor-814602130/",
   },
-  { iconName: <FiDribbble />, link: "https://dribbble.com/" },
+  { iconName: <FiDribbble />, link: "https://www.sohosro.com/" },
   {
     iconName: <FiLinkedin />,
-    link: "https://www.linkedin.com/feed/",
+    link: "https://www.linkedin.com/in/naim-siddiquee-sagor-814602130",
   },
 ];
 const Social = () => {
