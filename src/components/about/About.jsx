@@ -69,6 +69,17 @@ const About = () => {
                 data-aos-duration="1200"
                 data-aos-delay="200"
               ></div>
+              <div
+                className="experience"
+                data-aos="fade-up"
+                data-aos-duration="1200"
+                data-aos-delay="300"
+              >
+                <div className="info">
+                  <h3>Founder of Sohosro</h3>
+                  {/* <span>Of Experiance</span> */}
+                </div>
+              </div>
             </div>
           </div>
           {/* End rightPart */}
