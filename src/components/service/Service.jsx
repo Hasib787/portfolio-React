@@ -5,6 +5,7 @@ import ModalFour from "./modal/ModalFour";
 import ModalOne from "./modal/ModalOne";
 import ModalThree from "./modal/ModalThree";
 import ModalTwo from "./modal/ModalTwo";
+import {BsBank} from "react-icons/bs";
 
 Modal.setAppElement("#root");
 
@@ -89,7 +90,8 @@ const Service = () => {
           <Tilt>
             <div className="list_inner" onClick={toggleModalFour}>
               <div className="hover">
-                <img className="svg custom" src="img/svg/4.svg" alt="" />
+                <BsBank  className="bankIcon" />
+                {/* <img className="svg custom" src="img/svg/4.svg" alt="" /> */}
                 <div className="service_title">
                   <h3>City Agent Bank</h3>
                 </div>

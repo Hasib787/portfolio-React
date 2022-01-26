@@ -9,7 +9,7 @@ const ModalTwo = () => {
           className="main"
           style={{
             backgroundImage: `url(${
-              process.env.PUBLIC_URL + "img/service/2.jpg"
+              process.env.PUBLIC_URL + "img/service/urejabo.png"
             })`,
           }}
         ></div>
@@ -17,7 +17,13 @@ const ModalTwo = () => {
       {/* End big image */}
 
       <div className="description">
-        <h3>Branding &amp; Design Breakdown In Cinema 4D</h3>
+        <h3> <a
+            href="https://www.sohosro.com/"
+            className="sohosro_Hlink"
+            target="_blank"
+          >
+            Urejabo
+          </a></h3>
         <p>
           Just because we can't get out and about like we normally would,
           doesn’t mean we have to taking pictures. There’s still plenty you can

@@ -65,6 +65,11 @@ img.svg {
 .svg.custom {
   fill: none;
 }
+.bankIcon{
+  width: 30px;
+  height: 30px;
+  color: #fff;
+}
 ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
   color: #7e7e7e;
@@ -1405,6 +1410,15 @@ body.dark .loader_line:after {
 }
 .edina_tm_modalbox .description_wrap .edina_tm_full_link {
   display: none;
+}
+.sohosro_Hlink{
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.sohosro_Hlink:hover{
+  text-decoration: underline;
+  color: rgb(26, 137, 241);
 }
 .edina_tm_modalbox .popup_informations {
   width: 100%;
