@@ -994,7 +994,6 @@ body.dark .loader_line:after {
     padding-left: 15px;
     margin-top: 50px;
     flex: 0 0 auto;
-    width: 50%;
   }
   .description_wrap {
     > .row > .col-6 {
@@ -1075,6 +1074,10 @@ body.dark .loader_line:after {
     img {
       filter: invert(1);
     }
+  }
+  .icon .eduIcon{
+    width: 2rem;
+    margin-bottom: 3px;
   }
 
   .time {

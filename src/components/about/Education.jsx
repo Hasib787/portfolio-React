@@ -2,25 +2,22 @@ import React from "react";
 
 const educationContent = [
   {
-    year: "2015",
-    degree: "ENGINEERING DEGREE",
-    institute: "OXFORD UNIVERSITY",
-    details: `  Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore
-        adipisicing elit`,
+    year: "2018",
+    subject: "Finance BBA",
+    degree: "Bachelor DEGREE",
+    institute: "University of Liberal Arts Bangladesh",
   },
   {
-    year: "2012",
-    degree: "MASTER DEGREE",
-    institute: "KIEV UNIVERSITY",
-    details: `Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol
-        elit, tempor incididunt`,
+    year: "2013",
+    subject: "Business Studies",
+    degree: "Higher Secondary Certificate",
+    institute: "Dhaka City College",
   },
   {
-    year: "2009",
-    degree: "BACHELOR DEGREE ",
-    institute: "TUNIS HIGH SCHOOL",
-    details: `Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur
-        elit, sed do eiusmod tempor duntt`,
+    year: "2011",
+    subject: "Business Studies",
+    degree: "Secondary Education Certificate",
+    institute: "Chakhar Fazlul Huq Institution",
   },
 ];
 
@@ -30,14 +27,14 @@ const Education = () => {
       {educationContent.map((val, i) => (
         <li key={i}>
           <div className="icon">
-            <img src="img/about/book.png" alt="icon" />
+            <img className="eduIcon" src="img/about/edu.png" alt="icon" />
           </div>
           <span className="time open-sans-font text-uppercase">{val.year}</span>
           <h5 className="poppins-font text-uppercase">
-            {val.degree}
-            <span className="place open-sans-font">{val.institute}</span>
+            {val.subject}
+            <span className="place open-sans-font">{val.degree}</span>
           </h5>
-          <p className="open-sans-font">{val.details}</p>
+          <p className="open-sans-font">{val.institute}</p>
         </li>
       ))}
     </ul>
