@@ -3,7 +3,7 @@ import Sidebar from "../../components/header/Sidebar";
 import Hero from "../../components/slider/Hero";
 import About from "../../components/about/About";
 import Service from "../../components/service/Service";
-import Portfolio from "../../components/portfolio/Portfolio";
+import PhotoGallery from "../../components/photoGallery/PhotoGallery";
 import Blog from "../../components/blog/Blog";
 import Contact from "../../components/Contact";
 import Address from "../../components/Address";
@@ -44,17 +44,16 @@ const HomeDark = () => {
       </div>
       {/* End Services */}
 
-      <div className="edina_tm_portfolio" id="portfolio">
+      <div className="edina_tm_portfolio" id="photo">
         <div className="container">
           <div className="edina_tm_title">
-            <h3>Portfolio</h3>
+            <h3>Photo Gallery</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              ipsum sit nibh amet egestas tellus.
+              Here are some of my photos. You gonna love them. 
             </p>
           </div>
           {/* End edian_tm_title */}
-          <Portfolio />
+          <PhotoGallery />
         </div>
       </div>
       {/* End Portfolio */}

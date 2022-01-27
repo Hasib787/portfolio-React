@@ -17,8 +17,8 @@ const sidebarContent = [
   },
   {
     icon: "portfolio",
-    itemName: "Portfolio",
-    itemRoute: "#portfolio",
+    itemName: "Photo Gallery",
+    itemRoute: "#photo",
     activeClass: "",
   },
   {
@@ -80,7 +80,7 @@ const Sidebar = () => {
                 "home",
                 "about",
                 "service",
-                "portfolio",
+                "photo",
                 "quotes",
                 "blog",
                 "contact",
