@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-export default function Testimonial() {
+export default function Quotes() {
   var settings = {
     dots: true,
     arrow: false,
@@ -24,33 +24,33 @@ export default function Testimonial() {
     ],
   };
 
-  const testimonialContent = [
+  const quotesContent = [
     {
-      img: "1",
-      desc: `Hi, I’m Alvara Atkins and I am designer &amp; developer who dream making the world better place by products. I am also very active for international clients.`,
-      name: "Alvara Atkins",
-      designation: "Marketing Manager",
+      img: "Hasib",
+      desc: `Life is a journey, not a destination. Life is what happens when you're busy making other plans. Just follow your brain.`,
+      name: "Md. Masud Rana Hasib",
+      designation: "Software Engineer",
       delayAnimation: "",
     },
     {
-      img: "2",
-      desc: `These people really know what they are doing! Great customer support availability and supperb kindness. I am very happy that I've purchased this liscense!!!`,
-      name: "Fabian Gattuzo",
+      img: "anik",
+      desc: `If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough.`,
+      name: "Golam Rabbe Anik",
       designation: "Photographer",
       delayAnimation: "100",
     },
     {
-      img: "3",
-      desc: `These people really know what they are doing! Great customer support availability and supperb kindness. I am very happy that I've purchased this liscense!!!`,
-      name: "Alizee Bonita",
-      designation: "App Developer",
+      img: "elon",
+      desc: `When something is important enough, you do it even if the odds are not in your favor.`,
+      name: "Elon Musk",
+      designation: "SpaceX CEO",
       delayAnimation: "200",
     },
   ];
 
   return (
     <Slider {...settings}>
-      {testimonialContent.map((val, i) => (
+      {quotesContent.map((val, i) => (
         <li
           key={i}
           data-aos="fade-right"
