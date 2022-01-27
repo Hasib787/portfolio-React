@@ -41,7 +41,7 @@ export default function Quotes() {
     },
     {
       img: "elon",
-      desc: `When something is important enough, you do it even if the odds are not in your favor.`,
+      desc: `When something is important enough, you do it even if the odds are not in your favor. Life is too short for long-term grudges.`,
       name: "Elon Musk",
       designation: "SpaceX CEO",
       delayAnimation: "200",

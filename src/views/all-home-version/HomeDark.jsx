@@ -4,12 +4,12 @@ import Hero from "../../components/slider/Hero";
 import About from "../../components/about/About";
 import Service from "../../components/service/Service";
 import Portfolio from "../../components/portfolio/Portfolio";
-import Testimonial from "../../components/testimonial/Testimonial";
 import Blog from "../../components/blog/Blog";
 import Contact from "../../components/Contact";
 import Address from "../../components/Address";
 import Map from "../../components/Map";
 import AnimatedCursor from "react-animated-cursor";
+import Quotes from "../../components/quotes/Quotes";
 
 const HomeDark = () => {
   document.body.classList.add("dark");
@@ -59,19 +59,18 @@ const HomeDark = () => {
       </div>
       {/* End Portfolio */}
 
-      <div className="edina_tm_testimonials" id="testimonial">
+      <div className="edina_tm_testimonials" id="quotes">
         <div className="container">
           <div className="edina_tm_title">
-            <h3>Testimonials</h3>
+            <h3>Quotes</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              ipsum sit nibh amet egestas tellus.
+              Some quotes from my beloved friends and a famous person. 
             </p>
           </div>
           {/* End edian_tm_title */}
           <div className="list ">
             <ul>
-              <Testimonial />
+              <Quotes />
             </ul>
           </div>
         </div>
