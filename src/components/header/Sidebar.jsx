@@ -23,8 +23,8 @@ const sidebarContent = [
   },
   {
     icon: "testimonial",
-    itemName: "Testimonial",
-    itemRoute: "#testimonial",
+    itemName: "Quotes",
+    itemRoute: "#quotes",
     activeClass: "",
   },
   { icon: "blog", itemName: "Blog", itemRoute: "#blog", activeClass: "" },
@@ -81,7 +81,7 @@ const Sidebar = () => {
                 "about",
                 "service",
                 "portfolio",
-                "testimonial",
+                "quotes",
                 "blog",
                 "contact",
               ]}
