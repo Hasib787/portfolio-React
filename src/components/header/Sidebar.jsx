@@ -38,7 +38,7 @@ const sidebarContent = [
 
 // sidebar footer bottom content
 const sidebarFooterContent = {
-  avatar: "img/about/avatar.jpg",
+  avatar: "img/about/avatar.png",
   name: "Sagor",
   email: "naimsiddiquee@sohosro.com",
   emailRef: "naimsiddiquee@sohosro.com",

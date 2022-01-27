@@ -547,7 +547,7 @@ body.dark .loader_line:after {
   height: auto;
   display: flex;
   align-items: center;
-  padding: 40px;
+  padding: 37px 20px;
   @media screen and (max-width: 1199px) {
     padding: 20px;
   }
@@ -2096,7 +2096,7 @@ body.modal {
   display: flex;
   align-items: flex-start;
   background-color: #fff;
-  padding: 33px 35px 41px 35px;
+  padding: 33px 25px 41px 25px;
   border-radius: 6px;
   @media screen and (max-width: 1199px) {
     padding: 20px;
