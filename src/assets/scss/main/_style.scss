@@ -1953,8 +1953,9 @@ body.dark .loader_line:after {
 }
 .edina_tm_modalbox .news_details .title {
   font-weight: 600;
-  font-size: 23px;
+  font-size: 21px;
   margin-bottom: 9px;
+  color: #a9afc3;
 }
 .edina_tm_modalbox .news_details .title a {
   text-decoration: none;
@@ -2883,7 +2884,6 @@ a {
       }
     }
     svg {
-      fill: transparent;
       width: 20px;
       height: 20px;
     }
