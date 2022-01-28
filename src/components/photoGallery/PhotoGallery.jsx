@@ -19,9 +19,9 @@ const PhotoGallery = () => {
         settings: {
           slidesToShow: 1,
           arrow: false,
-          autoplay: false,
+          autoplay: true,
           draggable: true,
-          speed: 300,
+          speed: 500,
           dots: true,
         },
       },
