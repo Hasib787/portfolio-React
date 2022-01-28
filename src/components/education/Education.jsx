@@ -6,11 +6,11 @@ import "slick-carousel/slick/slick-theme.css";
 import ModalOne from "./Modal/ModalOne";
 import ModalTwo from "./Modal/ModalTwo";
 import ModalThree from "./Modal/ModalThree";
-import ModalFour from "./Modal/ModalFour";
+
 
 Modal.setAppElement("#root");
 
-const Blog = () => {
+const Education = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isOpen2, setIsOpen2] = useState(false);
   const [isOpen3, setIsOpen3] = useState(false);
@@ -66,7 +66,7 @@ const Blog = () => {
                     className="main"
                     style={{
                       backgroundImage: `url(${
-                        process.env.PUBLIC_URL + "img/news/4.jpg"
+                        process.env.PUBLIC_URL + "img/news/ULAB.jpg"
                       })`,
                     }}
                   ></div>
@@ -75,10 +75,10 @@ const Blog = () => {
 
                 <div className="news_details">
                   <span>
-                    April 07,2021 <a href="#">Design</a>
+                    2018 <a href="#">Bachelor Degree</a>
                   </span>
                   <h3 className="title" onClick={toggleModalOne}>
-                    Forzo Immobile
+                  University of Liberal Arts Bangladesh 
                   </h3>
                 </div>
                 {/* End details */}
@@ -98,7 +98,7 @@ const Blog = () => {
                     className="main"
                     style={{
                       backgroundImage: `url(${
-                        process.env.PUBLIC_URL + "img/news/2.jpg"
+                        process.env.PUBLIC_URL + "img/news/city_college.jpg"
                       })`,
                     }}
                   ></div>
@@ -107,10 +107,10 @@ const Blog = () => {
 
                 <div className="news_details">
                   <span>
-                    March 25,2021 <a href="#">Branding</a>
+                    2013 <a href="#">HSC</a>
                   </span>
                   <h3 className="title" onClick={toggleModalTwo}>
-                    Mosby Lavette
+                    Dhaka City College
                   </h3>
                 </div>
                 {/* End details */}
@@ -131,7 +131,7 @@ const Blog = () => {
                     className="main"
                     style={{
                       backgroundImage: `url(${
-                        process.env.PUBLIC_URL + "img/news/3.jpg"
+                        process.env.PUBLIC_URL + "img/news/cfhi.jpg"
                       })`,
                     }}
                   ></div>
@@ -140,10 +140,10 @@ const Blog = () => {
 
                 <div className="news_details">
                   <span>
-                    May 01,2021 <a href="#">Lifestyle</a>
+                    2011 <a href="#">SSC</a>
                   </span>
                   <h3 className="title" onClick={toggleModalThree}>
-                    Jacuba Bamba
+                    Chakhar Fazlul Huq Institution
                   </h3>
                 </div>
                 {/* End details */}
@@ -151,37 +151,6 @@ const Blog = () => {
               {/* END LIST INNER */}
             </li>
             {/* End single blog Three */}
-
-            <li
-              data-aos="fade-right"
-              data-aos-duration="1200"
-              data-aos-dealy="400"
-            >
-              <div className="list_inner">
-                <div className="image" onClick={toggleModalFour}>
-                  <img src="/img/placeholders/4-3.jpg" alt="thumb" />
-                  <div
-                    className="main"
-                    style={{
-                      backgroundImage: `url(${
-                        process.env.PUBLIC_URL + "img/news/1.jpg"
-                      })`,
-                    }}
-                  ></div>
-                </div>
-                {/* End image */}
-
-                <div className="news_details">
-                  <span>
-                    July 07,2021 <a href="#">Travel</a>
-                  </span>
-                  <h3 className="title" onClick={toggleModalFour}>
-                    Dostie Memorie
-                  </h3>
-                </div>
-                {/* End details */}
-              </div>
-            </li>
             {/* End single blog Four */}
           </Slider>
         </ul>
@@ -251,33 +220,9 @@ const Blog = () => {
           </div>
         </Modal>
         {/* End Modal Three */}
-
-        {/* Start Modal Four */}
-        <Modal
-          isOpen={isOpen4}
-          onRequestClose={toggleModalFour}
-          contentLabel="My dialog"
-          className="custom-modal"
-          overlayClassName="custom-overlay"
-          closeTimeoutMS={500}
-        >
-          <div className="edina_tm_modalbox">
-            <button className="close-modal" onClick={toggleModalFour}>
-              <img src="/img/svg/cancel.svg" alt="close icon" />
-            </button>
-            {/* End close icon */}
-
-            <div className="box_inner">
-              <ModalFour />
-            </div>
-            {/* End box inner */}
-          </div>
-          {/* End modal box news */}
-        </Modal>
-        {/* End Modal Four */}
       </div>
     </>
   );
 };
 
-export default Blog;
+export default Education;
