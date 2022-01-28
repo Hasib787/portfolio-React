@@ -8,17 +8,18 @@ export default function Quotes() {
     dots: true,
     arrow: false,
     infinite: true,
-    speed: 500,
+    speed: 800,
     slidesToShow: 2,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     responsive: [
       {
         breakpoint: 575,
         settings: {
           arrow: false,
+          autoplay: true,
           slidesToShow: 1,
-          speed: 300,
+          speed: 500,
         },
       },
     ],
