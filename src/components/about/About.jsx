@@ -29,14 +29,11 @@ const About = () => {
                 Hi, I'm <span>Naim Siddiquee Sagor</span>
               </h3>
               <p>
-                I'm a Freelancer Front-end Developer with over 6 years of
-                experience. I'm from San Francisco. I code and create web
-                elements for amazing people around the world. I like work with
-                new people.
+              I was born in October 1996 in Chakhar union of Banaripara upazila of Barisal district.  As an employee, I'm currently serving as the founding chairman of his own company Sohosro and sister concerns.  
               </p>
             </div>
             <div className="my_skills">
-              <h3 className="title">What is my skill level?</h3>
+              <h3 className="title">Accademi</h3>
               <p className="desc">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
                 ipsum sit nibh amet egestas tellus.

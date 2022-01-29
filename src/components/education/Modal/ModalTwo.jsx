@@ -10,7 +10,7 @@ const ModalTwo = () => {
           className="main"
           style={{
             backgroundImage: `url(${
-              process.env.PUBLIC_URL + "img/news/2.jpg"
+              process.env.PUBLIC_URL + "img/news/city_college.jpg"
             })`,
           }}
         ></div>
@@ -19,9 +19,10 @@ const ModalTwo = () => {
 
       <div className="news_details">
         <span>
-          March 25,2021 <a href="#">Branding</a>
+          2013 <a href="#">Higher Secondary Certificate</a>
         </span>
-        <h3 className="title"> Mosby Lavette</h3>
+        <h3>Business Studies</h3>
+        <h3 className="title"> Dhaka City College</h3>
       </div>
       {/* End details */}
       <div className="main_content">
