@@ -30,9 +30,9 @@ const About = () => {
               </h3>
               <p>
                 I was born in October 1996 in Chakhar union of Banaripara
-                upazila of Barisal district. As an employee, I'm currently
-                serving as the founding chairman of his own company Sohosro and
-                sister concerns.
+                upazila of Barishal district. As an employee, I'm currently
+                serving our country people’s as the founding chairman of Sohosro
+                and sister concerns.
               </p>
             </div>
             <div className="my_skills">

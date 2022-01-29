@@ -2677,8 +2677,8 @@ a {
     padding-right: 20px;
   }
   .edina_tm_contact .extra_info .wrapper > li .list_inner {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 8px;
+    padding-right: 6px;
   }
 
   .edina_tm_intro .main_title h3 {
@@ -2908,10 +2908,11 @@ a {
     mask-repeat: no-repeat;
     height: auto;
     width: 100%;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
     max-width: 100%;
     -webkit-mask-size: auto auto;
-    -webkit-mask-image: url(../../hero-shape.svg);
-    mask-image: url(../../hero-shape.svg);
+    
   }
 }
 .invalid-feedback,

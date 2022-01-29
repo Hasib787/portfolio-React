@@ -2,8 +2,7 @@ import React from "react";
 import Social from "../Social";
 
 const heroContent = {
-  shapeImage: "hero-shape",
-  heroImage: "sagor_logo",
+  heroImage: "sagor5",
   name: "Naim Siddiquee Sagor",
   description: `Chairman and Founder of Sohosro and Sister Concerns, a leading online platform for the E-commerce industry.`,
 };
@@ -15,8 +14,7 @@ const Hero = () => {
       <div className="content">
         <div className="img-shape" data-aos="fade-up" data-aos-duration="1200">
           <img
-            src={`img/hero/${heroContent.shapeImage}`}
-            srcSet={`img/hero/${heroContent.heroImage}.png`}
+            srcSet={`img/hero/${heroContent.heroImage}.jpeg`}
             alt="hero image"
           />
         </div>
