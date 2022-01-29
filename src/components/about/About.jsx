@@ -29,14 +29,18 @@ const About = () => {
                 Hi, I'm <span>Naim Siddiquee Sagor</span>
               </h3>
               <p>
-              I was born in October 1996 in Chakhar union of Banaripara upazila of Barisal district.  As an employee, I'm currently serving as the founding chairman of his own company Sohosro and sister concerns.  
+                I was born in October 1996 in Chakhar union of Banaripara
+                upazila of Barisal district. As an employee, I'm currently
+                serving as the founding chairman of his own company Sohosro and
+                sister concerns.
               </p>
             </div>
             <div className="my_skills">
-              <h3 className="title">Accademi</h3>
+              <h3 className="title">Academic Achievement </h3>
               <p className="desc">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-                ipsum sit nibh amet egestas tellus.
+                I have achieved success in my academic life and I'm pursuing MBA
+                in Finance at Jahangirnagar University. I'm completed BBA from
+                the University of Liberal Arts University.
               </p>
               <div className="edina_tm_button">
                 <button

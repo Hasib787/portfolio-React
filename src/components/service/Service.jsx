@@ -74,7 +74,7 @@ const Service = () => {
               <div className="hover">
                 <img className="svg custom" src="img/svg/3.svg" alt="" />
                 <div className="service_title">
-                  <h3>Ship 2 U</h3>
+                  <h3>Shipped 2 U</h3>
                 </div>
                 <div className="learn_more">
                   Learn More<span></span>
