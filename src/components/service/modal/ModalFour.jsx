@@ -9,7 +9,7 @@ const ModalFour = () => {
           className="main"
           style={{
             backgroundImage: `url(${
-              process.env.PUBLIC_URL + "img/service/4.jpg"
+              process.env.PUBLIC_URL + "img/service/city_bank.jpg"
             })`,
           }}
         ></div>
@@ -17,7 +17,7 @@ const ModalFour = () => {
       {/* End big image */}
 
       <div className="description">
-        <h3>Ui/Ux Consultancy is the trending Part of Graphics</h3>
+        <h3>City Agent Bank</h3>
         <p>
           Just because we can't get out and about like we normally would,
           doesn’t mean we have to taking pictures. There’s still plenty you can
