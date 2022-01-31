@@ -558,6 +558,9 @@ body.dark .loader_line:after {
   height: 50px;
   border-radius: 100%;
   display: inline-block;
+  @media screen and (max-width: 769px) {
+    display: none;
+  }
 }
 .edina_tm_sidebar .author .main {
   position: absolute;
@@ -2582,6 +2585,9 @@ a {
   }
   .edina_tm_modalbox .description_wrap {
     padding: 30px;
+    @media screen and (max-width: 769px) {
+      padding: 20px;
+    }
   }
   .edina_tm_modalbox .popup_informations h3 {
     font-size: 20px;
