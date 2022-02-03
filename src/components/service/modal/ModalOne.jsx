@@ -3,21 +3,21 @@ import Slider from "react-slick";
 
 const ModalOne = () => {
   var settings = {
-    dots: false,
-    arrow: true,
+    dots: true,
+    arrow: false,
     infinite: true,
     speed: 800,
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    draggable: false,
+    draggable: true,
     responsive: [
       {
         breakpoint: 575,
         settings: {
           slidesToShow: 1,
           arrow: false,
-          autoplay: true,
+          autoplay: false,
           draggable: true,
           speed: 500,
           dots: true,
@@ -27,7 +27,7 @@ const ModalOne = () => {
   };
   return (
     <div className="popup_informations">
-      <div className=" portfolio_inner my_carousel gallery_zoom">
+      <div className="my_carousel gallery_zoom">
       <ul data-aos="fade-right" data-aos-duration="1200">
         <Slider {...settings}>
           <li>
@@ -93,21 +93,6 @@ const ModalOne = () => {
             </div>
           </li>
           {/* End li */}
-
-          <li>
-            <div className="list_inner">
-              <div className="image">
-                <a>
-                  <img
-                    src="img/portfolio/sagor5.jpeg"
-                    data-tip
-                    data-for="web"
-                    alt="portfolio"
-                  />
-                </a>
-              </div>
-            </div>
-          </li>
           {/* End li */}
         </Slider>
       </ul>
