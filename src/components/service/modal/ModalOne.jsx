@@ -27,7 +27,7 @@ const ModalOne = () => {
   };
   return (
     <div className="popup_informations">
-      <div className="my_carousel gallery_zoom">
+      <div className="gallery_zoom">
       <ul data-aos="fade-right" data-aos-duration="1200">
         <Slider {...settings}>
           <li>

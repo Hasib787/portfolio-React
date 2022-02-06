@@ -2,9 +2,15 @@ import React from "react";
 
 const educationContent = [
   {
+    year: "Pursuing",
+    subject: "Finance MBA",
+    degree: "Masters Degree",
+    institute: "Jahangirnagar University",
+  },
+  {
     year: "2018",
     subject: "Finance BBA",
-    degree: "Bachelor DEGREE",
+    degree: "Bachelor Degree",
     institute: "University of Liberal Arts Bangladesh",
   },
   {
