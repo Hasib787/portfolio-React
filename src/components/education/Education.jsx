@@ -7,7 +7,6 @@ import ModalOne from "./Modal/ModalOne";
 import ModalTwo from "./Modal/ModalTwo";
 import ModalThree from "./Modal/ModalThree";
 
-
 Modal.setAppElement("#root");
 
 const Education = () => {
@@ -75,10 +74,36 @@ const Education = () => {
 
                 <div className="news_details">
                   <span>
+                    Pursuing <a href="#">Masters Degree</a>
+                  </span>
+                  <h3 className="title" onClick={toggleModalOne}>
+                    Jahangirnagar University
+                  </h3>
+                </div>
+                {/* End details */}
+              </div>
+            </li>
+            <li data-aos="fade-right" data-aos-duration="1200">
+              <div className="list_inner">
+                <div className="image" onClick={toggleModalOne}>
+                  <img src="/img/placeholders/4-3.jpg" alt="thumb" />
+                  <div
+                    className="main"
+                    style={{
+                      backgroundImage: `url(${
+                        process.env.PUBLIC_URL + "img/news/ulab.jpg"
+                      })`,
+                    }}
+                  ></div>
+                </div>
+                {/* End image */}
+
+                <div className="news_details">
+                  <span>
                     2018 <a href="#">Bachelor Degree</a>
                   </span>
                   <h3 className="title" onClick={toggleModalOne}>
-                  University of Liberal Arts Bangladesh 
+                    University of Liberal Arts Bangladesh
                   </h3>
                 </div>
                 {/* End details */}
