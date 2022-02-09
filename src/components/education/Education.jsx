@@ -6,6 +6,8 @@ import "slick-carousel/slick/slick-theme.css";
 import ModalOne from "./Modal/ModalOne";
 import ModalTwo from "./Modal/ModalTwo";
 import ModalThree from "./Modal/ModalThree";
+import ModalFour from "./Modal/ModalFour";
+
 
 Modal.setAppElement("#root");
 
@@ -245,6 +247,26 @@ const Education = () => {
           </div>
         </Modal>
         {/* End Modal Three */}
+        {/* Start Modal Four */}
+        <Modal
+          isOpen={isOpen3}
+          onRequestClose={toggleModalThree}
+          contentLabel="My dialog"
+          className="custom-modal"
+          overlayClassName="custom-overlay"
+          closeTimeoutMS={500}
+        >
+          <div className="edina_tm_modalbox">
+            <button className="close-modal" onClick={toggleModalThree}>
+              <img src="/img/svg/cancel.svg" alt="close icon" />
+            </button>
+            {/* END CLOSE MODAL */}
+            <div className="box_inner">
+              <ModalFour />
+            </div>
+          </div>
+        </Modal>
+        {/* End Modal Four */}
       </div>
     </>
   );
