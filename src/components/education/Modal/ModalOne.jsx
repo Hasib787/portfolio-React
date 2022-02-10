@@ -10,23 +10,20 @@ const ModalOne = () => {
           className="main"
           style={{
             backgroundImage: `url(${
-              process.env.PUBLIC_URL + "img/news/ulab.jpg"
+              process.env.PUBLIC_URL + "img/news/ju.jpg"
             })`,
           }}
         ></div>
       </div>
-      {/* End image */}
-
+      {/* END IMAGE */}
       <div className="news_details">
         <span>
-         2018 <a href="#">Bachelor Degree</a>
+        Pursuing <a href="#">Masters Degree</a>
         </span>
-        <h3>Finance BBA</h3>
-        <h3 className="title">University of Liberal Arts Bangladesh</h3>
-        
+        <h3>Finance MBA</h3>
+        <h3 className="title"> Jahangirnagar University</h3>
       </div>
       {/* End details */}
-
       <div className="main_content">
         <div className="descriptions">
           <p>
@@ -72,12 +69,12 @@ const ModalOne = () => {
             again.
           </p>
         </div>
-        {/* End description */}
-        <div className="news_share ">
+        {/* END DESCRIPTION */}
+        <div className="news_share">
           <span>Share:</span>
           <Social />
+          {/* END SOCIAL SHARE */}
         </div>
-        {/* End news share */}
       </div>
     </div>
   );
