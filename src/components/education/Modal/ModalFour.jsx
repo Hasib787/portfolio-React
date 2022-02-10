@@ -18,10 +18,10 @@ const ModalFour = () => {
       {/* END IMAGE */}
       <div className="news_details">
         <span>
-        Pursuing <a href="#">Masters Degree</a>
+          2011 <a href="#">Secondary Education Certificate</a>
         </span>
-        <h3>Finance MBA</h3>
-        <h3 className="title"> Jahangirnagar University</h3>
+        <h3>Business Studies</h3>
+        <h3 className="title">Chakhar Fazlul Huq Institution</h3>
       </div>
       {/* End details */}
       <div className="main_content">

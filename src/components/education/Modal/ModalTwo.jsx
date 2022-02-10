@@ -10,7 +10,7 @@ const ModalTwo = () => {
           className="main"
           style={{
             backgroundImage: `url(${
-              process.env.PUBLIC_URL + "img/news/city_college.jpg"
+              process.env.PUBLIC_URL + "img/news/ulab.jpg"
             })`,
           }}
         ></div>
@@ -19,12 +19,14 @@ const ModalTwo = () => {
 
       <div className="news_details">
         <span>
-          2013 <a href="#">Higher Secondary Certificate</a>
+         2018 <a href="#">Bachelor Degree</a>
         </span>
-        <h3>Business Studies</h3>
-        <h3 className="title"> Dhaka City College</h3>
+        <h3>Finance BBA</h3>
+        <h3 className="title">University of Liberal Arts Bangladesh</h3>
+        
       </div>
       {/* End details */}
+
       <div className="main_content">
         <div className="descriptions">
           <p>
@@ -71,7 +73,7 @@ const ModalTwo = () => {
           </p>
         </div>
         {/* End description */}
-        <div className="news_share">
+        <div className="news_share ">
           <span>Share:</span>
           <Social />
         </div>

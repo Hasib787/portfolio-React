@@ -67,7 +67,7 @@ const Education = () => {
                     className="main"
                     style={{
                       backgroundImage: `url(${
-                        process.env.PUBLIC_URL + "img/news/ulab.jpg"
+                        process.env.PUBLIC_URL + "img/news/ju.jpg"
                       })`,
                     }}
                   ></div>
@@ -249,15 +249,15 @@ const Education = () => {
         {/* End Modal Three */}
         {/* Start Modal Four */}
         <Modal
-          isOpen={isOpen3}
-          onRequestClose={toggleModalThree}
+          isOpen={isOpen4}
+          onRequestClose={toggleModalFour}
           contentLabel="My dialog"
           className="custom-modal"
           overlayClassName="custom-overlay"
           closeTimeoutMS={500}
         >
           <div className="edina_tm_modalbox">
-            <button className="close-modal" onClick={toggleModalThree}>
+            <button className="close-modal" onClick={toggleModalFour}>
               <img src="/img/svg/cancel.svg" alt="close icon" />
             </button>
             {/* END CLOSE MODAL */}

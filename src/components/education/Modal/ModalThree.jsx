@@ -10,18 +10,19 @@ const ModalThree = () => {
           className="main"
           style={{
             backgroundImage: `url(${
-              process.env.PUBLIC_URL + "img/news/cfhi.jpg"
+              process.env.PUBLIC_URL + "img/news/city_college.jpg"
             })`,
           }}
         ></div>
       </div>
-      {/* END IMAGE */}
+      {/* End image */}
+
       <div className="news_details">
         <span>
-          2011 <a href="#">Secondary Education Certificate</a>
+          2013 <a href="#">Higher Secondary Certificate</a>
         </span>
         <h3>Business Studies</h3>
-        <h3 className="title">Chakhar Fazlul Huq Institution</h3>
+        <h3 className="title"> Dhaka City College</h3>
       </div>
       {/* End details */}
       <div className="main_content">
@@ -69,12 +70,12 @@ const ModalThree = () => {
             again.
           </p>
         </div>
-        {/* END DESCRIPTION */}
+        {/* End description */}
         <div className="news_share">
           <span>Share:</span>
           <Social />
-          {/* END SOCIAL SHARE */}
         </div>
+        {/* End news share */}
       </div>
     </div>
   );
