@@ -16,7 +16,7 @@ const sidebarContent = [
     activeClass: "",
   },
   {
-    icon: "portfolio",
+    icon: "photo_gallery",
     itemName: "Photo Gallery",
     itemRoute: "#photo",
     activeClass: "",
