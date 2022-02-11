@@ -87,7 +87,7 @@ const Education = () => {
             </li>
             <li data-aos="fade-right" data-aos-duration="1200">
               <div className="list_inner">
-                <div className="image" onClick={toggleModalOne}>
+                <div className="image" onClick={toggleModalTwo}>
                   <img src="/img/placeholders/4-3.jpg" alt="thumb" />
                   <div
                     className="main"
@@ -104,7 +104,7 @@ const Education = () => {
                   <span>
                     2018 <a href="#">Bachelor Degree</a>
                   </span>
-                  <h3 className="title" onClick={toggleModalOne}>
+                  <h3 className="title" onClick={toggleModalTwo}>
                     University of Liberal Arts Bangladesh
                   </h3>
                 </div>
@@ -119,7 +119,7 @@ const Education = () => {
               data-aos-delay="150"
             >
               <div className="list_inner">
-                <div className="image" onClick={toggleModalTwo}>
+                <div className="image" onClick={toggleModalThree}>
                   <img src="/img/placeholders/4-3.jpg" alt="thumb" />
                   <div
                     className="main"
@@ -136,7 +136,7 @@ const Education = () => {
                   <span>
                     2013 <a href="#">HSC</a>
                   </span>
-                  <h3 className="title" onClick={toggleModalTwo}>
+                  <h3 className="title" onClick={toggleModalThree}>
                     Dhaka City College
                   </h3>
                 </div>
@@ -152,7 +152,7 @@ const Education = () => {
               data-aos-delay="300"
             >
               <div className="list_inner">
-                <div className="image" onClick={toggleModalThree}>
+                <div className="image" onClick={toggleModalFour}>
                   <img src="/img/placeholders/4-3.jpg" alt="thumb" />
                   <div
                     className="main"
@@ -169,7 +169,7 @@ const Education = () => {
                   <span>
                     2011 <a href="#">SSC</a>
                   </span>
-                  <h3 className="title" onClick={toggleModalThree}>
+                  <h3 className="title" onClick={toggleModalFour}>
                     Chakhar Fazlul Huq Institution
                   </h3>
                 </div>

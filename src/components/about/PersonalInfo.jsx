@@ -21,7 +21,6 @@ const personalInfoContent = [
   { meta: "Address", metaInfo: "Banaripara, Barishal" },
   { meta: "phone", metaInfo: " +8801929273397" },
   { meta: "Email", metaInfo: "naimsiddiquee@sohosro.com" },
-  { meta: "Skype", metaInfo: " rokers.nelson" },
   { meta: "langages", metaInfo: "Bangla, English" },
 ];
 
