@@ -13,7 +13,7 @@ const Address = () => {
             <h3>Phone</h3>
             <ul>
               <li>
-                <a href="Tel: +8801929273397">+8801929273397</a>
+                <p>Personal Number</p>
               </li>
               <li>
                 <a href="Tel: +8801929273397">+8801929273397</a>
@@ -36,7 +36,7 @@ const Address = () => {
                 <a href="mailto:ib-themes21@gmail.com">naimsiddiquee@sohosro.com</a>
               </li>
               <li>
-                <a href="mailto:ib-themes21@gmail.com">naimsiddiquee@sohosro.com</a>
+                <a href="mailto:ib-themes21@gmail.com">sagorsarder.ss@gmail.com</a>
               </li>
             </ul>
           </div>{" "}
