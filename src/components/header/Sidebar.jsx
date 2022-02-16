@@ -36,13 +36,7 @@ const sidebarContent = [
   },
 ];
 
-// sidebar footer bottom content
-const sidebarFooterContent = {
-  avatar: "img/about/avatar.png",
-  name: "Sagor",
-  email: "naimsiddiquee@sohosro.com",
-  emailRef: "naimsiddiquee@sohosro.com",
-};
+
 
 const Sidebar = () => {
   const [click, setClick] = useState(false);
@@ -113,7 +107,7 @@ const Sidebar = () => {
           </div>
           {/* End .menu */}
 
-          <div className="author">
+          {/* <div className="author">
             <div className="inner">
               <div className="image">
                 <div
@@ -125,15 +119,10 @@ const Sidebar = () => {
                   }}
                 ></div>
               </div>
-              <div className="short">
-                <h3>{sidebarFooterContent.name}</h3>
-                <a href={sidebarFooterContent.emailRef}>
-                  {sidebarFooterContent.email}
-                </a>
-              </div>
+              
             </div>
           </div>
-          {/* End author */}
+          End author */}
         </div>
       </div>
     </>
