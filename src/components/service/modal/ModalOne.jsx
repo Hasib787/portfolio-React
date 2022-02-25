@@ -28,74 +28,74 @@ const ModalOne = () => {
   return (
     <div className="popup_informations">
       <div className="gallery_zoom">
-      <ul data-aos="fade-right" data-aos-duration="1200">
-        <Slider {...settings}>
-          <li>
-            <div className="list_inner">
-              <div className="image">
-                <a>
-                  <img
-                    src="img/portfolio/sagor1.jpeg"
-                    data-tip
-                    data-for="product"
-                    alt="portfolio"
-                  />
-                </a>
+        <ul data-aos="fade-right" data-aos-duration="1200">
+          <Slider {...settings}>
+            <li>
+              <div className="list_inner">
+                <div className="image">
+                  <a>
+                    <img
+                      src="img/portfolio/sagor1.jpeg"
+                      data-tip
+                      data-for="product"
+                      alt="portfolio"
+                    />
+                  </a>
+                </div>
               </div>
-            </div>
-          </li>
-          {/* End li */}
+            </li>
+            {/* End li */}
 
-          <li>
-            <div className="list_inner">
-              <div className="image">
-                <a>
-                  <img
-                    src="img/portfolio/sagor2.jpg"
-                    data-tip
-                    data-for="dribbble"
-                    alt="portfolio"
-                  />
-                </a>
+            <li>
+              <div className="list_inner">
+                <div className="image">
+                  <a>
+                    <img
+                      src="img/portfolio/sagor2.jpg"
+                      data-tip
+                      data-for="dribbble"
+                      alt="portfolio"
+                    />
+                  </a>
+                </div>
               </div>
-            </div>
-          </li>
-          {/* End li */}
+            </li>
+            {/* End li */}
 
-          <li>
-            <div className="list_inner">
-              <div className="image">
-                <a>
-                  <img
-                    src="img/portfolio/sagor3.jpg"
-                    data-tip
-                    data-for="facebook"
-                    alt="portfolio"
-                  />
-                </a>
+            <li>
+              <div className="list_inner">
+                <div className="image">
+                  <a>
+                    <img
+                      src="img/portfolio/sagor3.jpg"
+                      data-tip
+                      data-for="facebook"
+                      alt="portfolio"
+                    />
+                  </a>
+                </div>
               </div>
-            </div>
-          </li>
-          {/* End li */}
+            </li>
+            {/* End li */}
 
-          <li>
-            <div className="list_inner">
-              <div className="image">
-                <a>
-                  <img
-                    src="img/portfolio/sagor4.jpg"
-                    data-tip
-                    data-for="youtube"
-                    alt="portfolio"
-                  />
-                </a>
+            <li>
+              <div className="list_inner">
+                <div className="image">
+                  <a>
+                    <img
+                      src="img/portfolio/sagor4.jpg"
+                      data-tip
+                      data-for="youtube"
+                      alt="portfolio"
+                    />
+                  </a>
+                </div>
               </div>
-            </div>
-          </li>
-          {/* End li */}
-          {/* End li */}
-        </Slider>
-      </ul>
+            </li>
+            {/* End li */}
+            {/* End li */}
+          </Slider>
+        </ul>
       </div>
       {/* End big image */}
 
@@ -110,17 +110,12 @@ const ModalOne = () => {
           </a>
         </h3>
         <p>
-          Just because we can't get out and about like we normally would,
-          doesn’t mean we have to taking pictures. There’s still plenty you can
-          do, provided you're prepared to use some imagination. Here are a few
-          ideas to keep you shooting until normal life resumes.
-        </p>
-        <p>
-          Most photographers love to shoot the unusual, and you don’t get much
-          more unusual than These Unprecedented Times. Right now everything
-          counts as out of the ordinary. There are a number of remarkable things
-          about these lockdown days that are worth photographing now we can
-          remember them when it is all over.
+          “Sohosro.com” An E-Commerce Platform that was established by the
+          Honourable chairman “Naim Siddiquee Sagor” in 2021. This E-commerce
+          site has early developed into an established marketplace for
+          customers. Sohosro offers to their customers trendy and reliable
+          shopping with all favorite brands and more. Now shopping is easier,
+          faster and always joyous.
         </p>
         <h3>What Is Branding?</h3>
         <p>
