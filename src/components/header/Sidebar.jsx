@@ -22,12 +22,17 @@ const sidebarContent = [
     activeClass: "",
   },
   {
-    icon: "testimonial",
+    icon: "quotes",
     itemName: "Quotes",
     itemRoute: "#quotes",
     activeClass: "",
   },
-  { icon: "education", itemName: "Education", itemRoute: "#education", activeClass: "" },
+  {
+    icon: "education",
+    itemName: "Education",
+    itemRoute: "#education",
+    activeClass: "",
+  },
   {
     icon: "contact",
     itemName: "Contact",
@@ -35,8 +40,6 @@ const sidebarContent = [
     activeClass: "",
   },
 ];
-
-
 
 const Sidebar = () => {
   const [click, setClick] = useState(false);
