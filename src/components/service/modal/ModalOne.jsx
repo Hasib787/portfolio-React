@@ -9,7 +9,7 @@ const ModalOne = () => {
     speed: 800,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     draggable: true,
     responsive: [
       {
@@ -31,65 +31,57 @@ const ModalOne = () => {
         <ul data-aos="fade-right" data-aos-duration="1200">
           <Slider {...settings}>
             <li>
-              <div className="list_inner">
-                <div className="image">
+                <div>
                   <a>
                     <img
-                      src="img/portfolio/sagor1.jpeg"
+                      src="img/service/sohosro/sohosro1.png"
                       data-tip
                       data-for="product"
                       alt="portfolio"
                     />
                   </a>
                 </div>
-              </div>
             </li>
             {/* End li */}
 
             <li>
-              <div className="list_inner">
-                <div className="image">
+                <div>
                   <a>
                     <img
-                      src="img/portfolio/sagor2.jpg"
+                      src="img/service/sohosro/sohosro2.png"
                       data-tip
                       data-for="dribbble"
                       alt="portfolio"
                     />
                   </a>
-                </div>
               </div>
             </li>
             {/* End li */}
 
             <li>
-              <div className="list_inner">
-                <div className="image">
+                <div>
                   <a>
                     <img
-                      src="img/portfolio/sagor3.jpg"
+                      src="img/service/sohosro/sohosro3.png"
                       data-tip
                       data-for="facebook"
                       alt="portfolio"
                     />
                   </a>
                 </div>
-              </div>
             </li>
             {/* End li */}
 
             <li>
-              <div className="list_inner">
-                <div className="image">
+              <div>
                   <a>
                     <img
-                      src="img/portfolio/sagor4.jpg"
+                      src="img/service/sohosro/sohosro4.png"
                       data-tip
                       data-for="youtube"
                       alt="portfolio"
                     />
                   </a>
-                </div>
               </div>
             </li>
             {/* End li */}
@@ -100,7 +92,7 @@ const ModalOne = () => {
       {/* End big image */}
 
       <div className="description">
-        <h3>
+        <h3 className="sohosro_title">
           <a
             href="https://www.sohosro.com/"
             className="sohosro_Hlink"
@@ -111,7 +103,7 @@ const ModalOne = () => {
         </h3>
         <p>
           “Sohosro.com” An E-Commerce Platform that was established by the
-          Honourable chairman “Naim Siddiquee Sagor” in 2021. This E-commerce
+          honourable chairman “Naim Siddiquee Sagor” in 2021. This E-commerce
           site has early developed into an established marketplace for
           customers. Sohosro offers to their customers trendy and reliable
           shopping with all favorite brands and more. Now shopping is easier,
