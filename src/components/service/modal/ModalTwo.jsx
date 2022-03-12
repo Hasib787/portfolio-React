@@ -1,18 +1,93 @@
 import React from "react";
+import Slider from "react-slick";
 
 const ModalTwo = () => {
+  var settings = {
+    dots: true,
+    arrow: false,
+    infinite: true,
+    speed: 800,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: false,
+    draggable: true,
+    responsive: [
+      {
+        breakpoint: 575,
+        settings: {
+          slidesToShow: 1,
+          arrow: false,
+          autoplay: false,
+          draggable: true,
+          speed: 500,
+          dots: true,
+        },
+      },
+    ],
+  };
   return (
     <div className="popup_informations">
-      <div className="image">
-        <img src="img/thumbs/4-3.jpg" alt="" />
-        <div
-          className="main"
-          style={{
-            backgroundImage: `url(${
-              process.env.PUBLIC_URL + "img/service/urejabo.png"
-            })`,
-          }}
-        ></div>
+     <div className="gallery_zoom">
+        <ul data-aos="fade-right" data-aos-duration="1200">
+          <Slider {...settings}>
+            <li>
+                <div>
+                  <a>
+                    <img
+                      src="img/service/urejabo/urejabo.png"
+                      data-tip
+                      data-for="product"
+                      alt="portfolio"
+                    />
+                  </a>
+                </div>
+            </li>
+            {/* End li */}
+
+            <li>
+                <div>
+                  <a>
+                    <img
+                      src="img/service/urejabo/urejabo1.png"
+                      data-tip
+                      data-for="dribbble"
+                      alt="portfolio"
+                    />
+                  </a>
+              </div>
+            </li>
+            {/* End li */}
+
+            <li>
+                <div>
+                  <a>
+                    <img
+                      src="img/service/urejabo/urejabo2.png"
+                      data-tip
+                      data-for="facebook"
+                      alt="portfolio"
+                    />
+                  </a>
+                </div>
+            </li>
+            {/* End li */}
+
+            <li>
+              <div>
+                  <a>
+                    <img
+                      src="img/service/urejabo/urejabo3.png"
+                      data-tip
+                      data-for="youtube"
+                      alt="portfolio"
+                    />
+                  </a>
+              </div>
+            </li>
+            {/* End li */}
+            {/* End li */}
+          </Slider>
+        </ul>
       </div>
       {/* End big image */}
 
