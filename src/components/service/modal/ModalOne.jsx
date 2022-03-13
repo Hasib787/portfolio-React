@@ -9,7 +9,7 @@ const ModalOne = () => {
     speed: 800,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     draggable: true,
     responsive: [
       {
@@ -17,7 +17,7 @@ const ModalOne = () => {
         settings: {
           slidesToShow: 1,
           arrow: false,
-          autoplay: false,
+          autoplay: true,
           draggable: true,
           speed: 500,
           dots: true,

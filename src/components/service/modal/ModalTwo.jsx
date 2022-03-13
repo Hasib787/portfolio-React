@@ -9,7 +9,7 @@ const ModalTwo = () => {
     speed: 800,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     draggable: true,
     responsive: [
       {
@@ -17,7 +17,7 @@ const ModalTwo = () => {
         settings: {
           slidesToShow: 1,
           arrow: false,
-          autoplay: false,
+          autoplay: true,
           draggable: true,
           speed: 500,
           dots: true,
@@ -27,61 +27,61 @@ const ModalTwo = () => {
   };
   return (
     <div className="popup_informations">
-     <div className="gallery_zoom">
+      <div className="gallery_zoom">
         <ul data-aos="fade-right" data-aos-duration="1200">
           <Slider {...settings}>
             <li>
-                <div>
-                  <a>
-                    <img
-                      src="img/service/urejabo/urejabo.png"
-                      data-tip
-                      data-for="product"
-                      alt="portfolio"
-                    />
-                  </a>
-                </div>
-            </li>
-            {/* End li */}
-
-            <li>
-                <div>
-                  <a>
-                    <img
-                      src="img/service/urejabo/urejabo1.png"
-                      data-tip
-                      data-for="dribbble"
-                      alt="portfolio"
-                    />
-                  </a>
+              <div>
+                <a>
+                  <img
+                    src="img/service/urejabo/urejabo.png"
+                    data-tip
+                    data-for="product"
+                    alt="portfolio"
+                  />
+                </a>
               </div>
             </li>
             {/* End li */}
 
             <li>
-                <div>
-                  <a>
-                    <img
-                      src="img/service/urejabo/urejabo2.png"
-                      data-tip
-                      data-for="facebook"
-                      alt="portfolio"
-                    />
-                  </a>
-                </div>
+              <div>
+                <a>
+                  <img
+                    src="img/service/urejabo/urejabo1.png"
+                    data-tip
+                    data-for="dribbble"
+                    alt="portfolio"
+                  />
+                </a>
+              </div>
             </li>
             {/* End li */}
 
             <li>
               <div>
-                  <a>
-                    <img
-                      src="img/service/urejabo/urejabo3.png"
-                      data-tip
-                      data-for="youtube"
-                      alt="portfolio"
-                    />
-                  </a>
+                <a>
+                  <img
+                    src="img/service/urejabo/urejabo2.png"
+                    data-tip
+                    data-for="facebook"
+                    alt="portfolio"
+                  />
+                </a>
+              </div>
+            </li>
+            {/* End li */}
+
+            <li>
+              <div>
+                <a>
+                  <img
+                    src="img/service/urejabo/urejabo3.png"
+                    data-tip
+                    data-for="youtube"
+                    alt="portfolio"
+                  />
+                </a>
               </div>
             </li>
             {/* End li */}
@@ -92,53 +92,24 @@ const ModalTwo = () => {
       {/* End big image */}
 
       <div className="description">
-        <h3> <a
+        <h3>
+          {" "}
+          <a
             href="https://www.sohosro.com/"
             className="sohosro_Hlink"
             target="_blank"
           >
             Urejabo
-          </a></h3>
+          </a>
+        </h3>
         <p>
-          Just because we can't get out and about like we normally would,
-          doesn’t mean we have to taking pictures. There’s still plenty you can
-          do, provided you're prepared to use some imagination. Here are a few
-          ideas to keep you shooting until normal life resumes.
-        </p>
-        <p>
-          Most photographers love to shoot the unusual, and you don’t get much
-          more unusual than These Unprecedented Times. Right now everything
-          counts as out of the ordinary. There are a number of remarkable things
-          about these lockdown days that are worth photographing now we can
-          remember them when it is all over.
-        </p>
-        <h3>What Is Branding?</h3>
-        <p>
-          Nullam blandit constituto eam ne, te nam ignota vituper.atoribus.
-          Malis cetero quem saipe, prou thendrerit voluptaria.
-        </p>
-        <div className="in_list">
-          <ul>
-            <li>
-              <p>Email is a crucial channel in any marketing.</p>
-            </li>
-            <li>
-              <p>Curious what to say? How to say it?</p>
-            </li>
-            <li>
-              <p>Whether you’re kicking off a new ca mpaign.</p>
-            </li>
-            <li>
-              <p>Habitasse per feugiat aliquam luctus accumsan curae</p>
-            </li>
-          </ul>
-        </div>
-        <p>
-          Streets empty that are usually busy are remarkable and can evoke the
-          sense of historical pictures from before the invention of the
-          motorcar. Other things that are different at the moment will be queues
-          to get into stores and the lines marked out on the floor to show how
-          far apart we should be.
+          Ure-Jabo is a courier service that provides logistic support to its
+          own mother company Sohosro.com. It launched its journey in 2022 with
+          delivery Support inside Dhaka city. The company Sohosro.com wants to
+          elaborate its (Ure-Jabo) service across Bangladesh. The Chairman of
+          the company “Naim Siddiquee Sagor” said Initially, we start delivering
+          in the Dhaka city, later we have plan to expand this business all over
+          Bangladesh as well as soon as possible.
         </p>
       </div>
     </div>

@@ -64,6 +64,7 @@ const HomeDark = () => {
           <div className="edina_tm_title">
             <h3>Quotes</h3>
             <p>Some quotes from my beloved friends and a famous person.</p>
+            <p>There is nothing more difficult to take in hand, more perilous to conduct, or more uncertain in its success, than to take the lead in the introduction of a new order of things.</p>
           </div>
           {/* End edian_tm_title */}
           <div className="list ">
