@@ -65,7 +65,7 @@ img.svg {
 .svg.custom {
   fill: none;
 }
-.bankIcon{
+.bankIcon {
   width: 30px;
   height: 30px;
   color: #fff;
@@ -1083,7 +1083,7 @@ body.dark .loader_line:after {
       filter: invert(1);
     }
   }
-  .icon .eduIcon{
+  .icon .eduIcon {
     width: 2rem;
     margin-bottom: 3px;
   }
@@ -1414,12 +1414,12 @@ body.dark .loader_line:after {
 .edina_tm_modalbox .description_wrap .edina_tm_full_link {
   display: none;
 }
-.sohosro_Hlink{
+.sohosro_Hlink {
   text-decoration: none;
   color: #fff;
   transition: all 0.3s ease;
 }
-.sohosro_Hlink:hover{
+.sohosro_Hlink:hover {
   text-decoration: underline;
   color: rgb(26, 137, 241);
 }
@@ -2062,6 +2062,12 @@ body.modal {
       filter: invert(1);
       height: 25px;
     }
+    @media screen and (min-width: 800px) and (max-width: 1400px) {
+      background: none;
+      border-radius: 0;
+      align-items: normal;
+     justify-content: none;
+    }
   }
   .content {
     flex: 1;
@@ -2102,8 +2108,8 @@ body.modal {
   background-color: #fff;
   padding: 33px 25px 41px 25px;
   border-radius: 6px;
-  @media screen and (max-width: 1199px) {
-    padding: 20px;
+  @media screen and (max-width: 1199px) and (min-width: 900px) {
+    padding: 15px;
   }
 }
 .edina_tm_contact .extra_info .in {
@@ -2598,10 +2604,10 @@ a {
   .container {
     padding: 0px 20px;
   }
-  .description{
+  .description {
     margin-top: 5rem !important;
   }
-  .sohosro_title{
+  .sohosro_title {
     margin-top: 5rem !important;
   }
   .edina_tm_intro .go_purchase h3 {
@@ -2611,7 +2617,7 @@ a {
     font-size: 40px;
   }
 }
-.description{
+.description {
   margin-top: 5rem !important;
 }
 @media (max-width: 991px) {
@@ -2926,7 +2932,6 @@ a {
     border-radius: 50%;
     max-width: 100%;
     -webkit-mask-size: auto auto;
-    
   }
 }
 .invalid-feedback,

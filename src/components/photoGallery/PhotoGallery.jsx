@@ -69,7 +69,7 @@ const PhotoGallery = () => {
               <div className="image">
                 <a>
                   <img
-                    src="img/portfolio/sagor3.jpg"
+                    src="img/portfolio/sagor7.jpeg"
                     data-tip
                     data-for="facebook"
                     alt="portfolio"
