@@ -44,6 +44,13 @@ const sidebarContent = [
 const Sidebar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <>
       <div className="mob-header">
@@ -63,6 +70,7 @@ const Sidebar = () => {
           <div className="logo">
             <Link to="/">
               <img
+                onClick={scrollToTop}
                 className="logo_light"
                 src={`img/logo/${logo2}.png`}
                 alt="brand"
@@ -110,22 +118,6 @@ const Sidebar = () => {
           </div>
           {/* End .menu */}
 
-          {/* <div className="author">
-            <div className="inner">
-              <div className="image">
-                <div
-                  className="main"
-                  style={{
-                    backgroundImage: `url(${
-                      process.env.PUBLIC_URL + sidebarFooterContent.avatar
-                    })`,
-                  }}
-                ></div>
-              </div>
-              
-            </div>
-          </div>
-          End author */}
         </div>
       </div>
     </>
