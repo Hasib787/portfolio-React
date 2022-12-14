@@ -32,7 +32,8 @@ const About = () => {
                 I was born in October 1996 in Chakhar union of Banaripara
                 upazila of Barishal district. As an employee, I'm currently
                 serving our country people’s as the founding chairman of Sohosro
-                and sister concerns.
+                and sister concerns. Currently I serving our country people
+                founding managing director of our solution.
               </p>
             </div>
             <div className="my_skills">
@@ -77,7 +78,7 @@ const About = () => {
                 data-aos-delay="300"
               >
                 <div className="info">
-                  <h3>Founder of Sohosro</h3>
+                  <h3>Founder of Our Solution</h3>
                   {/* <span>Of Experiance</span> */}
                 </div>
               </div>

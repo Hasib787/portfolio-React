@@ -1,26 +1,26 @@
 import React from "react";
 
 //make a function to count age from date of birth
-const getAge = (dateString) => {
-  let today = new Date();
-  let birthDate = new Date(dateString);
-  let age = today.getFullYear() - birthDate.getFullYear();
-  let m = today.getMonth() - birthDate.getMonth();
-  if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
-      age--;
-  }
-  return age;
-}
+// const getAge = (dateString) => {
+//   let today = new Date();
+//   let birthDate = new Date(dateString);
+//   let age = today.getFullYear() - birthDate.getFullYear();
+//   let m = today.getMonth() - birthDate.getMonth();
+//   if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+//       age--;
+//   }
+//   return age;
+// }
 
 const personalInfoContent = [
   { meta: "first name", metaInfo: "Naim " },
   { meta: "Middle name", metaInfo: "Siddiquee" },
   { meta: "last name", metaInfo: "Sagor" },
-  { meta: "Age", metaInfo: getAge("1995/10") },
+  { meta: "Birthday", metaInfo: "October 1994" },
   { meta: "Nationality", metaInfo: "Bangladeshi" },
   { meta: "Address", metaInfo: "Banaripara, Barishal" },
   { meta: "phone", metaInfo: " +8801929273397" },
-  { meta: "Email", metaInfo: "naimsiddiquee@sohosro.com" },
+  { meta: "Email", metaInfo: "sagorsarder.ss@gmail.com" },
   { meta: "langages", metaInfo: "Bangla, English" },
 ];
 

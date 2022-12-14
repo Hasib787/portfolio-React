@@ -4,7 +4,7 @@ import Social from "../Social";
 const heroContent = {
   heroImage: "sagor5",
   name: "Naim Siddiquee Sagor",
-  description: `Chairman and Founder of Sohosro and Sister Concerns, a leading online platform for the E-commerce industry.`,
+  description: `Post Managing Director at Our Solution. A Digital marketing agency.`,
 };
 
 const Hero = () => {
