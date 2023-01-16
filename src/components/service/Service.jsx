@@ -6,6 +6,8 @@ import ModalOne from "./modal/ModalOne";
 import ModalThree from "./modal/ModalThree";
 import ModalTwo from "./modal/ModalTwo";
 import {BsBank} from "react-icons/bs";
+import {AiOutlineSolution} from "react-icons/ai";
+import ModalFive from "./modal/ModalFive";
 
 Modal.setAppElement("#root");
 
@@ -14,6 +16,7 @@ const Service = () => {
   const [isOpen2, setIsOpen2] = useState(false);
   const [isOpen3, setIsOpen3] = useState(false);
   const [isOpen4, setIsOpen4] = useState(false);
+  const [isOpen5, setIsOpen5] = useState(false);
 
   function toggleModalOne() {
     setIsOpen(!isOpen);
@@ -26,6 +29,9 @@ const Service = () => {
   }
   function toggleModalFour() {
     setIsOpen4(!isOpen4);
+  }
+  function toggleModalFive() {
+    setIsOpen5(!isOpen5);
   }
 
   return (
@@ -94,6 +100,24 @@ const Service = () => {
                 {/* <img className="svg custom" src="img/svg/4.svg" alt="" /> */}
                 <div className="service_title">
                   <h3>City Agent Bank</h3>
+                </div>
+                <div className="learn_more">
+                  Learn More<span></span>
+                </div>
+              </div>
+            </div>
+          </Tilt>
+        </li>
+        {/* End Service Mobile App Design */}
+
+        {/* Start Service Mobile App Design */}
+        <li data-aos="fade-right" data-aos-duration="1200" data-aos-delay="300">
+          <Tilt>
+            <div className="list_inner" onClick={toggleModalFive}>
+              <div className="hover">
+                <AiOutlineSolution  className="solutionIcon" />
+                <div className="service_title">
+                  <h3>Our Solution</h3>
                 </div>
                 <div className="learn_more">
                   Learn More<span></span>
@@ -208,6 +232,32 @@ const Service = () => {
         {/* End modal box news */}
       </Modal>
       {/* End Modal Ui/Ux Consultancy*/}
+
+      {/* Start Modal Modal Our solution */}
+      <Modal
+        isOpen={isOpen5}
+        onRequestClose={toggleModalFive}
+        contentLabel="My dialog"
+        className="custom-modal"
+        overlayClassName="custom-overlay"
+        closeTimeoutMS={500}
+      >
+        <div className="edina_tm_modalbox">
+          <button className="close-modal" onClick={toggleModalFive}>
+            <img src="/img/svg/cancel.svg" alt="close icon" />
+          </button>
+          {/* End close icon */}
+
+          <div className="box_inner">
+            <div className="description_wrap">
+              <ModalFive />
+            </div>
+          </div>
+          {/* End box inner */}
+        </div>
+        {/* End modal box news */}
+      </Modal>
+      {/* End Modal our solution*/}
     </div>
   );
 };

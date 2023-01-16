@@ -66,8 +66,13 @@ img.svg {
   fill: none;
 }
 .bankIcon {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
+  color: #fff;
+}
+.solutionIcon {
+  width: 40px;
+  height: 40px;
   color: #fff;
 }
 ::-webkit-input-placeholder {
@@ -926,8 +931,8 @@ body.dark .loader_line:after {
   bottom: -50px;
   left: -50px;
   z-index: 1;
-  width: 291px;
-  height: 291px;
+  width: 307px;
+  height: 307px;
   border-radius: 100%;
   background-color: #34495e;
 }
