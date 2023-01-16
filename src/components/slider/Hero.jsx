@@ -2,7 +2,7 @@ import React from "react";
 import Social from "../Social";
 
 const heroContent = {
-  heroImage: "sagor5",
+  heroImage: "sagor",
   name: "Naim Siddiquee Sagor",
   description: `Post Managing Director at Our Solution. A Digital marketing agency.`,
 };
