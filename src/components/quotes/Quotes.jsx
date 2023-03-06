@@ -27,25 +27,13 @@ export default function Quotes() {
 
   const quotesContent = [
     {
-      img: "Hasib",
-      desc: `Life is a journey, not a destination. Life is what happens when you're busy making other plans. Just follow your brain.`,
-      name: "Md. Masud Rana Hasib",
-      designation: "Software Engineer",
-      delayAnimation: "",
+      desc: `Enjoy your life without compering it’s to others. The only person you should try to beat, is the person you were yesterday.`,
     },
     {
-      img: "anik",
-      desc: `If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough.`,
-      name: "Golam Rabbe Anik",
-      designation: "Photographer",
-      delayAnimation: "100",
+      desc: `I prefer the person who tells me my mistakes in front of me, not the one who talks behind my back and I fear most the person who keeps silent even when he realizes my mistake.`,
     },
     {
-      img: "elon",
-      desc: `When something is important enough, you do it even if the odds are not in your favor. Life is too short for long-term grudges.`,
-      name: "Elon Musk",
-      designation: "SpaceX CEO",
-      delayAnimation: "200",
+      desc: `Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma – which is living with the results of other people's thinking.`,
     },
   ];
 
@@ -59,35 +47,6 @@ export default function Quotes() {
           data-aos-delay={val.delayAnimation}
         >
           <div className="list_inner">
-            <div className="details">
-              <div className="author">
-                <div className="image">
-                  <div
-                    className="main"
-                    style={{
-                      backgroundImage: `url(${
-                        process.env.PUBLIC_URL +
-                        `img/testimonials/${val.img}.jpg`
-                      })`,
-                    }}
-                  ></div>
-                </div>
-                {/* End image */}
-
-                <div className="short">
-                  <h3>{val.name}</h3>
-                  <span>{val.designation}</span>
-                </div>
-                {/* End short description */}
-              </div>
-              {/* End author */}
-
-              <div className="icon">
-                <img className="svg" src="img/svg/quote.svg" alt="quote" />
-              </div>
-              {/* End right quote icon */}
-            </div>
-
             <div className="text">
               <p>{val.desc}</p>
             </div>

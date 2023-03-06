@@ -23,7 +23,7 @@ const sidebarContent = [
   },
   {
     icon: "quotes",
-    itemName: "Quotes",
+    itemName: " Some Words I Believe",
     itemRoute: "#quotes",
     activeClass: "",
   },

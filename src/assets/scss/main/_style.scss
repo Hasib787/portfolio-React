@@ -1574,6 +1574,7 @@ body.dark .loader_line:after {
 }
 .my_carousel ul li .image img {
   position: relative;
+  height: 450px;
   width: 100%;
   transition: all 0.4s ease-in-out;
 }
@@ -2076,7 +2077,7 @@ body.modal {
   }
   .content {
     flex: 1;
-    padding-left: 15px;
+    // padding-left: 15px;
     ul {
       margin: 0;
       padding: 0;

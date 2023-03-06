@@ -5,9 +5,7 @@ import About from "../../components/about/About";
 import Service from "../../components/service/Service";
 import PhotoGallery from "../../components/photoGallery/PhotoGallery";
 import Education from "../../components/education/Education";
-import Contact from "../../components/Contact";
 import Address from "../../components/Address";
-import Map from "../../components/Map";
 import AnimatedCursor from "react-animated-cursor";
 import Quotes from "../../components/quotes/Quotes";
 
@@ -62,8 +60,8 @@ const HomeDark = () => {
       <div className="edina_tm_testimonials" id="quotes">
         <div className="container">
           <div className="edina_tm_title">
-            <h3>Quotes</h3>
-            <p>Some quotes from my beloved friends and a famous person.</p>
+            <h3>Some Words I Believe</h3>
+            <p>Some Words I Believe</p>
             <p>There is nothing more difficult to take in hand, more perilous to conduct, or more uncertain in its success, than to take the lead in the introduction of a new order of things.</p>
           </div>
           {/* End edian_tm_title */}

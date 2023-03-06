@@ -5,9 +5,6 @@ const Address = () => {
     <ul className="wrapper">
       <li data-aos="fade-right" data-aos-duration="1200">
         <div className="list_inner">
-          <div className="icon">
-            <img src="img/address/phone.png" alt="icon" />
-          </div>
           {/* End icon */}
           <div className="content">
             <h3>Phone</h3>
@@ -25,18 +22,19 @@ const Address = () => {
       </li>
       <li data-aos="fade-right" data-aos-duration="1200" data-aos-delay="100">
         <div className="list_inner">
-          <div className="icon">
-            <img src="img/address/email.png" alt="icon" />
-          </div>
           {/* End icon */}
           <div className="content">
             <h3>Email</h3>
             <ul>
               <li>
-                <a href="mailto:ib-themes21@gmail.com">naimsiddiquee@sohosro.com</a>
+                <a href="naimsiddiqueesagor@oursolution.tech">
+                  naimsiddiqueesagor@oursolution.tech
+                </a>
               </li>
               <li>
-                <a href="mailto:ib-themes21@gmail.com">sagorsarder.ss@gmail.com</a>
+                <a href="sagorsarder.ss@gmail.com">
+                  sagorsarder.ss@gmail.com
+                </a>
               </li>
             </ul>
           </div>{" "}
@@ -45,16 +43,13 @@ const Address = () => {
       </li>
       <li data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
         <div className="list_inner">
-          <div className="icon">
-            <img src="img/address/location.png" alt="icon" />
-          </div>
           {/* End icon */}
           <div className="content">
             <h3>Address</h3>
             <ul>
               <li>
                 <p>
-                  Banaripara, 
+                  Banaripara,
                   <br />
                   Barishal, Bangladesh
                 </p>
